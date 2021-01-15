@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Vraag 4</title>
+<title>Vraag 3</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 	
 		 <script type = "text/javascript">
@@ -10,6 +10,7 @@
             function WriteCookie() {
 			   Answer3Result = escape(document.quiz.freq.value) + ";"; 
                document.cookie = "MTTQ3=" + Answer3Result + "path=/";
+				document.forms["quiz"].submit();
             }
 			 
       	</script>      
