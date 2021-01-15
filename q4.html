@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vraag 2</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	
+	 <script type = "text/javascript">
+        
+            function WriteCookie() {
+			   Answer4Result = escape(document.quiz.leaderships.value) + ";"; 
+               document.cookie = "MTTQ4=" + Answer4Result + "path=/";
+			   document.forms["quiz"].submit();
+            }
+
+			 
+      	</script>      
+	
+</head>
+
+<body>
+	<h1>Welke leiderschapsstijl past bij jou?</h1>
+	
+
+	
+<form action="q5.html" name = "quiz">
+	
+<table style="width: 200px;">
+	<tbody>
+		<tr>
+			<td><label>
+  <input type="radio" name="leaderships" value="1" checked>
+  <img src="images/__v2-autocratisch.png" width="200" height="150">
+				<h2>Autocratisch (directief en autoritair)</h2>
+</label>
+</td>
+			<td><label>
+  <input type="radio" name="leaderships" value="2" checked>
+  <img src="images/__v2-resultaatgericht.png" width="200" height="150">
+				<h2>Resultaatgericht (directief en inspirerend)</h2>
+</label></td>
+			<td><label>
+  <input type="radio" name="leaderships" value="3" checked>
+  <img src="images/__v2-charismatisch.png" width="200" height="150">
+				<h2>Charismatisch (inspirerend en coachend)</h2>
+</label></td>
+			<td><label>
+  <input type="radio" name="leaderships" value="4" checked>
+  <img src="images/__v2-conflictueus.png" width="200" height="150">
+				<h2>Conflictueus (wantrouwend en autoritair)</h2>
+</label>
+</td>
+			</tr>
+		<tr>
+			<td><label>
+  <input type="radio" name="leaderships" value="5" checked>
+  <img src="images/__v2-vermijdend.png" width="200" height="150">
+				<h2>Vermijdend (wantrouwend en terugtrekkend)</h2>
+</label></td>
+			<td><label>
+  <input type="radio" name="leaderships" value="6" checked>
+  <img src="images/__v2-toegeeflijk.png" width="200" height="150">
+				<h2>Passief (toegeeflijk en terugtrekkend)</h2>
+</label></td>
+		
+			<td><label>
+  <input type="radio" name="leaderships" value="7" checked>
+  <img src="images/__v2-democratisch.png" width="200" height="150">
+				<h2>Democratisch (toegeeflijk en participatief)</h2>
+</label></td>
+			<td><label>
+  <input type="radio" name="leaderships" value="8" checked>
+  <img src="images/__v2-mensgericht.png" width="200" height="150">
+				<h2>Mensgericht (participatief en coachend)</h2>
+</label></td>
+		</tr>
+	</tbody>
+</table>
+
+	
+<div>
+
+<a href="q3.html"><img src="images/prev.png" width="400" height="100" alt=""></a>
+	<button type="button" onclick="WriteCookie()"><img src="images/next.png" width="400" height="100" alt=""/></button>
+</div>
+
+</form>
+
+</body>
+</html>

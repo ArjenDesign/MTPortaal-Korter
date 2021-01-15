@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vraag 2</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	
+		 <script type = "text/javascript">
+        
+            function WriteCookie() {
+			   Answer2Result = escape(document.quiz.goals.value) + ";"; 
+               document.cookie = "MTTQ2=" + Answer2Result + "path=/";
+			   document.forms["quiz"].submit();
+            }
+
+			 
+      	</script>      
+	
+</head>
+
+<body>
+<h1>Wat denk je vanuit het versterken van vertrouwen, te realiseren in het MT en de organisatie?</h1>
+	
+<form action="q3.html" name = "quiz">
+
+<table style="width: 200px;">
+	<tbody>
+		<tr>
+			<td><label>
+  <input type="radio" name="goals" value="1" checked>
+  <img src="images/__v3-meer-openheid.png" width="200" height="150">
+				<h2>Meer openheid en een cultuur van vertrouwen binnen de bedrijfsvoering.</h2>
+</label>
+</td>
+			<td><label>
+  <input type="radio" name="goals" value="2" checked>
+  <img src="images/__v3-vertrouwen.png" width="200" height="150">
+				<h2>Vertrouwen is de basis van onze organisatie en dit dragen we uit in alles.</h2>
+</label></td>
+			<td><label>
+  <input type="radio" name="goals" value="3" checked>
+  <img src="images/__v3-eenbrug.png" width="200" height="150">
+				<h2>Een brug slaan tussen het management en de medewerkers.</h2>
+</label></td>
+			<td><label>
+  <input type="radio" name="goals" value="4" checked>
+  <img src="images/__v3-conflictenoplossen.png" width="200" height="150">
+				<h2>Conflicten oplossen om te komen tot een next level binnen het MT en andere teams.</h2>
+</label>
+</td>
+			</tr>
+		<tr>
+			<td><label>
+  <input type="radio" name="goals" value="5" checked>
+  <img src="images/__v3-betrokkenheid-begrip.png" width="200" height="150">
+				<h2>Betrokkenheid, begrip en respect op alle afdelingen.</h2>
+</label></td>
+			<td><label>
+  <input type="radio" name="goals" value="6" checked>
+  <img src="images/__v3-eigenaarschap-verantwoordelijkheid.png" width="200" height="150">
+				<h2>Eigenaarschap en verantwoordelijkheid van ieder mens/persoon die in onze organisatie werkzaam is.</h2>
+</label></td>
+		
+			<td><label>
+  <input type="radio" name="goals" value="7" checked>
+  <img src="images/__V3-verbeteren-resultaten.png" width="200" height="150">
+				<h2>Verbeteren van resultaten, meer rendement en omzet.</h2>
+</label></td>
+			<td><label>
+  <input type="radio" name="goals" value="8" checked>
+  <img src="images/__v3-onzekerheden.png" width="200" height="150">
+				<h2>Huidige onzekerheden voor lief nemen en kijken naar innovatie en nieuwe kansen die we concreet maken.</h2>
+</label></td>
+		</tr>
+	</tbody>
+</table>
+	
+<div>
+
+<a href="index.html"><img src="images/prev.png" width="400" height="100" alt=""></a>
+<button type="button" onclick="WriteCookie()"><img src="images/next.png" width="400" height="100" alt=""/></button>
+</div>
+
+</form>
+
+</body>
+</html>

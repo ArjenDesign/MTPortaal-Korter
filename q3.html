@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vraag 4</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	
+		 <script type = "text/javascript">
+        
+            function WriteCookie() {
+			   Answer3Result = escape(document.quiz.freq.value) + ";"; 
+               document.cookie = "MTTQ3=" + Answer3Result + "path=/";
+            }
+			 
+      	</script>      
+	
+</head>
+
+<body>
+<h3>Hoe concreet werk je nu aan de doelstelling van de vorige vraag?</h3>
+	
+<form action="q4.html" name = "quiz">
+
+<table style="width: 200px;" >
+<tbody>
+<tr>
+<td><label>
+  <input type="radio" name="freq" value="1" checked>
+  <img src="images/__v4-nogniet.png" width="200" height="150">
+	
+</label></td>
+<td><label>
+  <input type="radio" name="freq" value="2" checked>
+  <img src="images/__v4-regelmatig.png" width="200" height="150">
+	
+	</label></td>
+<td><label>
+  <input type="radio" name="freq" value="3" checked>
+  <img src="images/__v4-volledig.png" width="200" height="150">
+	
+</label></td>
+</tr>
+	</tbody>
+</table>
+
+
+	
+<div>
+<a href="q2.html"><img src="images/prev.png" width="400" height="100" alt=""></a>
+	<button type="button" onclick="WriteCookie()"><img src="images/next.png" width="400" height="100" alt=""/></button>
+</div>
+
+</form>
+</body>
+</html>

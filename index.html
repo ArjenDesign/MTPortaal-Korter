@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vraag 1</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	
+		 <script type = "text/javascript">
+        
+            function WriteCookie() {
+			   Answer1Result = escape(document.quiz.insights.value) + ";"; 
+               document.cookie = "MTTQ1=" + Answer1Result + "path=/";
+			   document.forms["quiz"].submit();
+            }
+
+      	</script>      
+	
+</head>
+
+<body>
+<h1>Waar zou je meer inzicht in willen krijgen?</h1>
+	
+<form action="q2.html" name = "quiz">
+	
+<table style="width: 300px;">
+	<tbody>
+		<tr>
+			<td><label>
+  <input type="radio" name="insights" value="1" checked>
+  <img src="images/__v1-vertrouwen.png" width="300" height="225">
+				<h2>Leiderschap vanuit vertrouwen</h2>
+</label></td>
+			<td><label>
+  <input type="radio" name="insights" value="2" checked>
+  <img src="images/__v1-relatie.png" width="300" height="225">
+				<h2>Relatie tussen management, medewerkers en klanten</h2>
+</label></td>
+			<td><label>
+  <input type="radio" name="insights" value="3" checked>
+  <img src="images/__v1-missie.png" width="300" height="225">
+				<h2>Missie, waarden, doelen, taken, verantwoordelijkheden</h2>
+</label></td>
+		</tr>
+		<tr>
+			<td><label>
+  <input type="radio" name="insights" value="4" checked>
+  <img src="images/__v1-onderlinge.png" width="300" height="225">
+ <h2>Onderlinge aandacht en begrip</h2>
+</label>
+</td>
+			<td><label>
+  <input type="radio" name="insights" value="5" checked>
+  <img src="images/__v1-reflectie.png" width="300" height="225">
+				<h2>(Zelf)reflectie en communicatie vanuit vertrouwen</h2>
+</label></td>
+		</tr>
+	</tbody>
+</table>	
+	
+
+<button type="button" onclick="WriteCookie()"><img src="images/next.png" width="400" height="100" alt=""/></button>
+
+
+</form>
+
+</body>
+</html>

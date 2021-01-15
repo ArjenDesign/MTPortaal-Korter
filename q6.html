@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vraag 6</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	
+	 <script type = "text/javascript">
+        
+            function WriteCookie() {
+			   Answer8Result = escape(document.quiz.visions.value) + ";"; 
+               document.cookie = "MTTQ8=" + Answer8Result + "path=/";
+				
+			   Answer9Result = escape(document.quiz.coop.value) + ";"; 
+               document.cookie = "MTTQ9=" + Answer9Result + "path=/";
+				
+			  Answer10Result = escape(document.quiz.real.value) + ";"; 
+               document.cookie = "MTTQ10=" + Answer10Result + "path=/";
+				
+				
+			   document.forms["quiz"].submit();
+            }
+			 
+			 
+      	</script>      
+	
+</head>
+
+<body>
+	<h3>In hoeverre worden de doelstellingen vanuit de visie, waarden en missie gerealiseerd?</h3>
+	
+<form action="q7.html" name = "quiz">
+	
+	<table style="width: 200px;" >
+<tbody>
+<tr>
+<td><label>
+  <input type="radio" name="visions" value="1" checked>
+  <img src="images/__v7-altijd.png" width="200" height="150">
+	
+</label></td>
+<td><label>
+  <input type="radio" name="visions" value="2" checked>
+  <img src="images/__v7-vaak.png" width="200" height="150">
+	
+	</label></td>
+<td><label>
+  <input type="radio" name="visions" value="3" checked>
+  <img src="images/__v7-soms.png" width="200" height="150">
+	
+</label></td>
+<td><label>
+  <input type="radio" name="visions" value="4" checked>
+  <img src="images/__v7-onvoldoende.png" width="200" height="150">	
+</label></td>
+</tr>
+</tbody>
+</table>
+	
+	<h3>In hoeverre is voor iedereen helder hoe de doelstellingen te realiseren?</h3>
+	
+	<table style="width: 200px;" >
+<tbody>
+<tr>
+<td><label>
+  <input type="radio" name="coop" value="1" checked>
+  <img src="images/__vx-volledig.png" width="200" height="150">
+	
+</label></td>
+<td><label>
+  <input type="radio" name="coop" value="2" checked>
+  <img src="images/__vx-bijnavolledig.png" width="200" height="150">
+	
+	</label></td>
+<td><label>
+  <input type="radio" name="coop" value="3" checked>
+  <img src="images/__vx-nogniethelemaal.png" width="200" height="150">
+	
+</label></td>
+<td><label>
+  <input type="radio" name="coop" value="4" checked>
+  <img src="images/__vx-onvoldoende.png" width="200" height="150">	
+</label></td>
+</tr>
+</tbody>
+</table>
+	
+	<h3>Hoe vaak zijn er plenaire sessies in de organisatie of Management-medewerkers bijeenkomsten?</h3>
+	
+	<table style="width: 200px;" >
+<tbody>
+<tr>
+<td><label>
+  <input type="radio" name="real" value="1" checked>
+  <img src="images/__v6-week.png" width="200" height="150">
+	
+</label></td>
+<td><label>
+  <input type="radio" name="real" value="2" checked>
+  <img src="images/__v6-maand.png" width="200" height="150">
+	
+	</label></td>
+<td><label>
+  <input type="radio" name="real" value="3" checked>
+  <img src="images/__v6-halfjaar.png" width="200" height="150">
+	
+</label></td>
+<td><label>
+  <input type="radio" name="real" value="4" checked>
+  <img src="images/__v6-jaar.png" width="200" height="150">	
+</label></td>
+</tr>
+</tbody>
+</table>
+	
+<div>
+<a href="q5.html"><img src="images/prev.png" width="400" height="100" alt=""></a>
+<button type="button" onclick="WriteCookie()"><img src="images/next.png" width="400" height="100" alt=""/></button>
+
+</div>
+
+</form>
+
+</body>
+</html>

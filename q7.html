@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Resultaten</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>	
+<h1>Je hebt de volgende antwoorden ingevuld:</h1>
+	<h2>
+		<script type = "text/javascript">
+		var Question1Answer = 0;
+		var Question2Answer = 0;
+		var Question3Answer = 0;
+		var Question4Answer = 0;
+		var Question5Answer = 0;
+		var Question6Answer = 0;
+		var Question7Answer = 0;
+		var Question8Answer = 0;
+		var Question9Answer = 0;
+		var Question10Answer = 0;
+			
+		var Question1Text = 0;
+		var Question2Text = 0;
+		var Question3Text = 0;
+		var Question4Text = 0;
+		var Question5Text = 0;
+		var Question6Text = 0;
+		var Question7Text = 0;
+		var Question8Text = 0;
+		var Question9Text = 0;
+		var Question10Text = 0;
+
+		for(var i=1; i<=11; i++) 
+		{
+			var AnswerB = getCookie("MTTQ" + i.toString());	
+			
+			
+			if(i==1){
+				Question1Answer=AnswerB;
+				switch(AnswerB) {
+					case "1": Question1Text="Leiderschap vanuit vertrouwen"; break;
+					case "2": Question1Text="Relatie tussen management, medewerkers en klanten"; break;
+					case "3": Question1Text="Missie, waarden, doelen, taken, verantwoordelijkheden"; break;
+					case "4": Question1Text="Onderlinge aandacht en begrip"; break;
+					case "5": Question1Text="(Zelf)reflectie en communicatie vanuit vertrouwen"; break;
+					default: Question1Text=""; break;
+				}
+			}
+	
+			if(i==2){
+				Question2Answer=AnswerB;
+				switch (AnswerB) {
+					case "1": Question2Text="Meer openheid en een cultuur van vertrouwen binnen de bedrijfsvoering."; break;
+					case "2": Question2Text="Vertrouwen is de basis van onze organisatie en dit dragen we uit in alles."; break;
+					case "3": Question2Text="Een brug slaan tussen het management en de medewerkers."; break;
+					case "4": Question2Text="Conflicten oplossen om te komen tot een next level binnen het MT en andere teams."; break;
+					case "5": Question2Text="Betrokkenheid, begrip en respect op alle afdelingen."; break;
+					case "6": Question2Text="Eigenaarschap en verantwoordelijkheid van ieder mens/persoon die in onze organisatie werkzaam is."; break;
+					case "7": Question2Text="Verbeteren van resultaten, meer rendement en omzet."; break;
+					case "8": Question2Text="Huidige onzekerheden voor lief nemen en kijken naar innovatie en nieuwe kansen die we concreet maken."; break;
+					default: Question2Text=""; break;
+				}
+			}
+						
+			if(i==3){
+				Question3Answer=AnswerB;
+				switch (AnswerB) {
+					case "1": Question3Text="Nog niet"; break;
+					case "2": Question3Text="Regelmatig"; break;
+					case "3": Question3Text="Volledig"; break;
+					default: Question3Text=""; break;
+				}
+			}
+			
+			if(i==4){
+				Question4Answer=AnswerB;
+				switch (AnswerB) {
+					case "1": Question4Text="Autocratisch (directief en autoritair)"; break;
+					case "2": Question4Text="Resultaatgericht (directief en inspirerend)"; break;
+					case "3": Question4Text="Charismatisch (inspirerend en coachend)"; break;
+					case "4": Question4Text="Conflictueus (wantrouwend en autoritair)"; break;
+					case "5": Question4Text="Vermijdend (wantrouwend en terugtrekkend)"; break;
+					case "6": Question4Text="Passief (toegeeflijk en terugtrekkend)"; break;
+					case "7": Question4Text="Democratisch (toegeeflijk en participatief)"; break;
+					case "8": Question4Text="Mensgericht (participatief en coachend)"; break;
+					default: Question4Text=""; break;
+				}
+			}
+			
+			if(i==5){
+				Question5Answer=AnswerB;
+				switch (AnswerB) {
+					case "1": Question5Text="Ja"; break;
+					case "2": Question5Text="Soms"; break;
+					case "3": Question5Text="Nee"; break;
+					default: Question5Text=""; break;
+				}								
+			}
+			
+			if(i==6){
+				Question6Answer=AnswerB;
+				switch (AnswerB) {
+					case "1": Question6Text="Ja"; break;
+					case "2": Question6Text="Soms"; break;
+					case "3": Question6Text="Nee"; break;
+					default: Question6Text=""; break;
+				}								
+			}	
+			
+			if(i==7){
+				Question7Answer=AnswerB;
+				switch (AnswerB) {
+					case "1": Question7Text="Ja"; break;
+					case "2": Question7Text="Soms"; break;
+					case "3": Question7Text="Nee"; break;
+					default: Question7Text=""; break;
+				}								
+			}	
+			
+			if(i==8){
+				Question8Answer=AnswerB;
+				switch (AnswerB) {
+					case "1": Question8Text="Altijd"; break;
+					case "2": Question8Text="Vaak"; break;
+					case "3": Question8Text="Soms"; break;
+					case "4": Question8Text="Onvoldoende"; break;
+					default: Question8Text=""; break;
+				}								
+			}
+
+			
+			if(i==9){
+				Question9Answer=AnswerB;
+				switch (AnswerB) {
+					case "1": Question9Text="Volledig"; break;
+					case "2": Question9Text="Bijna volledig"; break;
+					case "3": Question9Text="Nog niet helemaal"; break;
+					case "4": Question9Text="Onvoldoende"; break;
+					default: Question9Text=""; break;
+				}								
+			}
+			
+			
+			if(i==10){
+				Question10Answer=AnswerB;
+				switch (AnswerB) {
+					case "1": Question10Text="1 keer per week"; break;
+					case "2": Question10Text="1 keer per maand"; break;
+					case "3": Question10Text="1 keer per half jaar"; break;
+					case "4": Question10Text="1 keer per jaar"; break;
+					default: Question10Text=""; break;
+				}								
+			}
+									
+			
+			
+			if(i==11){
+				WriteResults();
+			}
+				
+		
+		}
+		
+			function WriteResults() {
+				
+				document.write ("Je antwoord op vraag 1 was " + Question1Text + "<br> Je antwoord op vraag 2 was " + Question2Text + "<br> Je antwoord op vraag 3 was " + Question3Text + "<br> Je antwoord op vraag 4 was " + Question4Text + "<br> Je antwoord op vraag 5 was " + Question5Text + "<br> Je antwoord op vraag 6 was " + Question6Text +
+				"<br> Je antwoord op vraag 7 was " + Question7Text + "<br> Je antwoord op vraag 8 was " + Question8Text + "<br> Je antwoord op vraag 9 was " + Question9Text +
+				"<br> Je antwoord op vraag 10 was " + Question10Text + "<br>");			
+				
+			}
+			
+			function getCookie(cname) {
+				var name = cname + "=";
+				var decodedCookie = decodeURIComponent(document.cookie);
+				var ca = decodedCookie.split(';');
+				for(var i = 0; i <ca.length; i++) {
+					var c = ca[i];
+					while (c.charAt(0) == ' ') {
+					c = c.substring(1);
+					}
+					if (c.indexOf(name) == 0) {
+					return c.substring(name.length, c.length);
+					}
+				}
+				return "";
+			}
+			 
+      	</script>   
+	</h2>	
+
+	
+<form action="q6.html" name = "quiz">
+	
+<div>
+	<br>
+<a href="q6.html"><img src="images/prev.png" width="400" height="100" alt=""></a>
+</div>
+
+</form>
+
+</body>
+</html>
